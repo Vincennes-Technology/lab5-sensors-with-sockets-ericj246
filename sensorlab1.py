@@ -10,6 +10,12 @@ GPIO.setmode(GPIO.BCM)
 
 SERVERIP = '10.0.0.43'
 n = 0
+#hook the sound sensor into ground and power
+#Hook the PCF into power and ground
+#hook the PCF SCl pin into GPIO 3 (SCL)
+#Hook the PCF SDA pin into GPIO 2 (SDA)
+#Plug in the sound sensors SIG pin into a disconnect
+#Plug in the PCF Ain0 into the disconnect with the SIG plug fron the sensor
 
 
 def setup():
